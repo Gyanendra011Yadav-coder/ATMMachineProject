@@ -7,10 +7,14 @@
 
 package definition;
 
+import java.util.ArrayList;
+
 public class Account {
-    private String accountName;
-    private double balanceCheck;
+    private String Name;
+    private double balance;
     private String uuid;
+    private User Holder;
+    private ArrayList<Transaction> transactions;
 
 
 }
